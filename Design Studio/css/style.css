@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.logo {
+    display: block;
+}
+.logo h1{
+    margin-right: 20px;
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+.logo h3 {
+    position: absolute;
+    left: 280px;
+    top: 15px;
+    color: aliceblue;
+
+}
+header{
+    background: rgb(49, 48, 48);
+    box-shadow: 5px 1px 15px #444;
+    padding: 5px;
+}
+
+input[type=text]{
+    width: 300px;
+    position: absolute;
+    float: right;
+    padding: 6px;
+    border: 1px solid #000;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    top: -2px;
+    right: 10px;
+}
+ul{
+    display: inline-flex;
+    width: 50%;
+    margin-top: 10px;
+    
+}
+li{
+
+    color: aliceblue;
+    list-style: none;
+    margin-right: 5px;
+    margin-left: 12px;
+}
+
+.logo{
+    margin-bottom: 5px;
+}
+h5.call{
+    position: absolute;
+    color: #fff;
+    float: right;
+    top:60px;
+    margin-left: 1100px;
+}
+h5.email{
+    position: absolute;
+    color: #fff;
+    float: right;
+    top:60px;
+    margin-left: 880px;
+}

@@ -1,0 +1,29 @@
+*{
+	list-style: none;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+	background: rgb(126, 126, 126);
+	display: inline-flex;
+	width: 100%;
+}
+ul{
+	display: flex;
+	height: 100%;
+
+}
+li{
+	margin-right: 10px;
+}
+.fa{
+	color: rgb(0, 102, 255);
+	justify-content: flex-end;
+}
+input{
+	justify-content: flex-end;
+
+}
+.img{
+	justify-content: center;
+	align-content: center;
+}
