@@ -56,5 +56,13 @@ html{
     z-index: 0;
 }
 
-
+.bottom{
+    background: rgb(211, 209, 209);
+    clip-path: polygon(49% 65%, 0% 100%, 100% 100%);
+    width: 100px;
+    height: 50px;
+    content: "";
+    z-index: 4;
+    position: absolute;
+}
 
