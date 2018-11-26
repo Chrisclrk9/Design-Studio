@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-const ActiveSearch = {};
+import Search from './components/Search';
+import TopList from './components/TopList';
+
 class App extends Component {
   render() {
     return (
@@ -9,20 +11,14 @@ class App extends Component {
           <h1>Popular Photo Search</h1>
           <Search />
         </header>
+
+        <body><TopList /></body>
       </div>
+
+
     );
   }
 }
-
-class Search extends Component {
-  render() {
-    return (
-      <div className="Search">
-        <input placeholder="Search..."></input>
-        <button onClick={ActiveSearch}>Search</button>
-      </div>
-    )
-  }
-} 
+ 
 
 export default App;

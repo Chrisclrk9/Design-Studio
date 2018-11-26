@@ -1,14 +1,15 @@
 body {
   max-width: 350px;
-  height: 600px;;
+  height: 100%;;
   margin: auto;
-  border: 1px solid #444;
+  border: 1px solid rgb(13, 17, 204);
+  /* box-shadow: 2px 2px 15px #444; */
 }
 .App {
   text-align: center;
 }
 h1{
-  font-size: 1.6em;
+  font-size: 1.3em;
 }
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -32,7 +33,7 @@ h1{
   box-shadow: 0px 0px 5px rgb(255, 1, 1);
 }
 .App-header {
-  background-color: #282c34;
+  background-color: #1357df;
   min-height: 33vh;
   display: flex;
   flex-direction: column;
@@ -43,6 +44,20 @@ h1{
 
 .App-link {
   color: #61dafb;
+}
+
+.TopList{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #444;
+}
+.TopList p {
+  text-align: left;
+  align-content: space-around;
+}
+
+.TopList ul {
+  list-style: none;
 }
 
 @keyframes App-logo-spin {
