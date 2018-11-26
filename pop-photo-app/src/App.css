@@ -48,7 +48,6 @@ h1{
 .TopList{
   display: flex;
   flex-direction: row;
-  border: 1px solid #444;
 }
 .TopList p {
   text-align: left;

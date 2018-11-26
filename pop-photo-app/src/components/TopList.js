@@ -1,11 +1,12 @@
-import React from 'react';
+import React, {Component} from 'react';
 import '../App.css';
 
-const TopList = () => {
+class TopList extends Component {
+	render() {
     return(
 			<div>
 			<h1>HELLO TOP LIST</h1>
-<div className="TopList">
+{/* <div className="TopList">
 		<div className="T">
     	<ul>
     		<li><p>Buckingham Palace</p></li>
@@ -24,9 +25,10 @@ const TopList = () => {
 			<li><p>Hyde Park</p></li>
     </ul>
 	</div>
+	</div> */}
 	</div>
-	</div>
-    )
+		)
+}
 };
 
 export default TopList;
