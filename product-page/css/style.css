@@ -1,13 +1,11 @@
 *{
   font-family: verdana;
+  margin: 0px;
+  padding: 0px;
 }
 
 header{
   display: flex;
-}
-
-.product-title {
-  
 }
 @media screen and (max-width: 600px){
   header {
@@ -32,22 +30,18 @@ header{
   position: fixed;
   background: #444;
   padding: 5px;
+  z-index: 10
 }
 #nav-bar{
-/*   position: fixed; */
   margin-left: 400px;
-  
+  padding: 15px;
 }
 #nav-bar li{
-  list-style: none;
+  list-style: none;  
 }
-
-.nav-link{
-  margin-right:10px;
-  
-}
-.nav-link a{
+.nav-link {
   color: #444;
+  margin-left: 10px;
   font-size: 1.5em;
   background: #fff;
   border: 1px solid #444;
@@ -55,8 +49,8 @@ header{
   text-decoration: none;
 }
 
-.nav-link a:hover{
-  background: red;
+.nav-link:hover{
+  background-color: red;
   color: white;
 }
 
@@ -79,14 +73,16 @@ ul {
   background: #efefef;
   border-radius: 5px;
   margin: auto;
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  margin-bottom: 200px;
 }
 
-.container h3 {
-  margin: 100px;
-}
 .prices{
+  margin-top: 50px;
   display: flex;
-  justify-content: space-evenly;
+  margin-right: 10px;
 /*   margin-left: 20px; */
 }
 #card{
@@ -102,7 +98,7 @@ ul {
 .product-title{
   background: #444;
   padding: 20px;
-  margin-top: 0px;
+  margin-top: 10px;
 }
 #card p{
   margin: 10px;
@@ -110,6 +106,7 @@ ul {
 
 h3#product-price{
   color: #000;
+  margin: 0px;
 }
 
 button{
