@@ -5,7 +5,7 @@ import Search from './components/Search';
 import TopList from './components/TopList';
 
 class App extends Component {
-    constructor(props) {
+    constructor() {
       super();
       this.state = { 
                data: [] 
@@ -15,25 +15,23 @@ class App extends Component {
       fetch(`https://api.coinmarketcap.com/v1/ticker/?limit=10`)
         .then(res => res.json())
         .then(json => this.setState({ data: json }));
+
     }
 
-  render() {
-    const { data } = this.state;
-    return (
-      <div className="App">
-        <header className="App-header">
-          <h1>Popular Photo Search</h1>
-          <Search />
-        </header>
-        <body>
-          <TopList data={ data } />
-        </body>
-      </div>
-
-
-    );
+    render() {
+      return (
+        <div>
+          <ul>
+            {this.state.data.map(item => (
+              <li>
+                {item.name}:   ${item.price_usd}
+              </li>
+            ))}
+          </ul>
+        </div>
+      );
+    }
   }
-}
  
 
 export default App;

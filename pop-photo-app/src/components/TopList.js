@@ -1,11 +1,14 @@
 import React, {Component} from 'react';
 import '../App.css';
 
-class TopList extends Component {
+class TopList extends React.Component {
 	render() {
     return(
 			<div>
 			<h1>HELLO TOP LIST</h1>
+			<list>
+
+			</list>
 {/* <div className="TopList">
 		<div className="T">
     	<ul>
